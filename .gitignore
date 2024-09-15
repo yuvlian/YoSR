@@ -1,9 +1,9 @@
+# For on how does the cmdid file look like, you can contact me on discord @yuvlian 
 /sdkserver/bin/protocol.ml
 /sdkserver/bin/protocol.mli
 /gameserver/bin/protocol.ml
 /gameserver/bin/protocol.mli
 /gameserver/bin/cmdid.ml 
-# For on how does the cmdid file look like, you can contact me on discord @yuvlian 
 
 # This is just for obtaining latest avatar ids.
 /gameserver/get_avatar.py
@@ -38,5 +38,6 @@ setup.log
 # Local OPAM switch
 _opam
 
-# Builder
-/factory
+/factory/2.5.51.proto
+/factory/cmdid.json
+/factory/Dispatch.proto
