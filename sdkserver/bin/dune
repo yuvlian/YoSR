@@ -1,0 +1,4 @@
+(executable
+ (public_name sdkserver)
+ (name main)
+ (libraries tiny_httpd pbrt base64 sdkserver))

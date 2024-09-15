@@ -1,0 +1,5 @@
+(executable
+ (public_name gameserver)
+ (name main)
+ (libraries lwt.unix hex base64 pbrt gameserver yojson))
+(include_subdirs qualified)

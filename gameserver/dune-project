@@ -1,0 +1,14 @@
+(lang dune 3.16)
+
+(name gameserver)
+
+(generate_opam_files true)
+
+(authors "yuvlian")
+
+(maintainers "yuvlian")
+
+(package
+ (name gameserver)
+ (synopsis "ocaml gameserver")
+ (depends ocaml dune lwt hex pbrt yojson))
