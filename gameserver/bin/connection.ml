@@ -26,22 +26,25 @@ let handlers =
     |> add cmd_p_v_e_battle_result_cs_req Battle.on_pve_battle_result
   )
 
+(* To check whether packet is handled or not *)
+let len_check str = 
+  if String.length str = 0 then "Unhandled"
+  else Hex.show (Hex.of_string str)
+
 (* Handle incoming packet by looking up the command handler *)
 let handle pk =
   match CmdMap.find_opt pk.cmd handlers with
-  | Some handler -> Some (handler pk)
-  | None -> None
+  | Some handler
+  ->  let body = len_check pk.body in
+      printf "[RSP] %s\n\n%!" body; 
+      Some (handler pk)
+  | None -> printf "[RSP] Unhandled\n\n%!"; None
 
 (* Recursive function to process packets from the input channel *)
 let rec run ic oc =
   let* pk = read ic in
-  let head = Hex.show (Hex.of_string pk.head) in
-  let body =
-    if String.length pk.body = 0 then "Unhandled"
-    else Hex.show (Hex.of_string pk.body)
-  in
-
-  printf "[CMD] %d\n[HEAD] %s\n[BODY] %s\n\n%!" pk.cmd head body;
+  (* let head = Hex.show (Hex.of_string pk.head) in *)
+  printf "[REQ] %d\n%!" pk.cmd (* head *);
 
   (* Handle the packet and write the response if there's a result *)
   let* () =
