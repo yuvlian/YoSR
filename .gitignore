@@ -8,9 +8,6 @@
 # This is just for obtaining latest avatar ids.
 /gameserver/get_avatar.py
 
-# Need to stop pushing this lol
-/gameserver/yo.json
-
 *.annot
 *.cmo
 *.cma

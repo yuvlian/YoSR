@@ -1,41 +1,41 @@
 # YoSR
-Originally LingshaRail, now renamed and republished with *cleaner code*.
+Originally LingshaRail, now renamed and republished with *cleaner code* and a bit more features.
 
 ## Why are the protos and cmdid missing?
-Sorry, get them and [compile](https://github.com/mransan/ocaml-protoc?tab=readme-ov-file#install-and-build) them yourself.
+Sorry, get them and [compile](https://github.com/mransan/ocaml-protoc?tab=readme-ov-file) them yourself.
 
-If you did that and you don't know where to place them, you can check the .gitignore file.
+I have provided the build scripts in the factory directory so you can build them easily.
 
 ## What's different?
-- `/gameserver/yo.json`
-  - The main thing about this server reimplementation.
+- [yo.json](https://github.com/yuvlian/YoSR/blob/main/gameserver/yo.json)
+  - A JSON file that's used for lineup, battle, etc.
 
-- `/gameserver/yo_json_generator.html`
-   - Self explanatory.
+- [generator.html](https://f2pqingque.github.io/yo/generator.html)
+   - A page for generating yo.json. Not that great but oh well.
 
-- `/gameserver/json_table.py`
-  - Generate image of yo.json as a table.
+- [json_showcase.py](https://f2pqingque.github.io/yo/json_showcase.py)
+  - Python script to generate an image of yo.json as a table.
   
-- `/gameserver/bin/utility.ml`
-  - Convenient functions used across many handlers.
+- [utility.ml](https://github.com/yuvlian/YoSR/blob/main/gameserver/bin/utility.ml)
+  - Collection of convenient stuff used across many handlers.
 
-- `/gameserver/bin/jsontypes.ml`
-  - The yo.json structs.
+- [jsontypes.ml](https://github.com/yuvlian/YoSR/blob/main/gameserver/bin/jsontypes.ml)
+  - Structs for yo.json deserializing.
 
-- `/gameserver/bin/idutil.ml`
-  - Utility for available characters, relics, and lightcones alongside their IDs.
+- [idutil.ml](https://github.com/yuvlian/YoSR/blob/main/gameserver/bin/idutil.ml)
+  - Utility for getting IDs of characters, relics, relic affixes, and lightcones.
 
-- `/gameserver/bin/config.ml`
+- [config.ml](https://github.com/yuvlian/YoSR/blob/main/gameserver/bin/config.ml)
   - Handler for yo.json configuration.
 
-- `/gameserver/bin/handlers/avatar.ml`
+- [avatar.ml](https://github.com/yuvlian/YoSR/blob/main/gameserver/bin/handlers/avatar.ml)
   - Made it support multi path avatars from JSON.
 
-- `/gameserver/bin/handlers/battle.ml`
+- [battle.ml](https://github.com/yuvlian/YoSR/blob/main/gameserver/bin/handlers/battle.ml)
   - See for yourself.
 
-- `/gameserver/bin/handlers/lineup.ml`
-  - Made it support lineup from JSON.
+- [lineup.ml](https://github.com/yuvlian/YoSR/blob/main/gameserver/bin/handlers/lineup.ml)
+  - Made it use lineup from characters in the JSON.
 
-- `/gameserver/bin/handlers/scene.ml`
-  - Undid many nesting.
+- [scene.ml](https://github.com/yuvlian/YoSR/blob/main/gameserver/bin/handlers/scene.ml)
+  - Unnested some stuff I guess.

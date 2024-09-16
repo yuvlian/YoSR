@@ -1,0 +1,694 @@
+{
+  "slot1": {
+    "index": 0,
+    "name": "Qingque",
+    "lv": 80,
+    "rank": 6,
+    "promo": 6,
+    "max_trace": true,
+    "multipath": "None",
+    "energy": 50,
+    "use_tech": true,
+    "lightcone": {
+      "name": "Ninjutsu_inscription_dazzling_evilbreaker",
+      "promo": 6,
+      "lv": 80,
+      "rank": 5
+    },
+    "relic": {
+      "head": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Hp",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Cr",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Cd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "hand": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Atk",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Cr",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Cd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "body": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Atkp",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Cr",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Cd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "foot": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Spd",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Cr",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Cd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "orb": {
+        "name": "Forges",
+        "lv": 15,
+        "m_affix": "Atkp",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Cr",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Cd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "rope": {
+        "name": "Forges",
+        "lv": 15,
+        "m_affix": "Be",
+        "s_affix_one": {
+          "sub": "Cr",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Cd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        }
+      }
+    }
+  },
+
+  "slot2": {
+    "index": 1,
+    "name": "Caelus_harm",
+    "lv": 80,
+    "rank": 6,
+    "promo": 6,
+    "max_trace": true,
+    "multipath": "Boy_shaman_type",
+    "energy": 50,
+    "use_tech": true,
+    "lightcone": {
+      "name": "Memories_of_the_past",
+      "promo": 6,
+      "lv": 80,
+      "rank": 5
+    },
+    "relic": {
+      "head": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Hp",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Eres",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Defp",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "hand": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Atk",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Eres",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Defp",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "body": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Hpp",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Eres",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Defp",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "foot": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Spd",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Eres",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Defp",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Hpp",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "orb": {
+        "name": "Forges",
+        "lv": 15,
+        "m_affix": "Hpp",
+        "s_affix_one": {
+          "sub": "Spd",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Eres",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Defp",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Hp",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "rope": {
+        "name": "Forges",
+        "lv": 15,
+        "m_affix": "Er",
+        "s_affix_one": {
+          "sub": "Spd",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Eres",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Defp",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Hpp",
+          "cnt": 1,
+          "step": 2
+        }
+      }
+    }
+  },
+
+  "slot3": {
+    "index": 2,
+    "name": "Boothill",
+    "lv": 80,
+    "rank": 6,
+    "promo": 6,
+    "max_trace": true,
+    "multipath": "None",
+    "energy": 77,
+    "use_tech": true,
+    "lightcone": {
+      "name": "Sailing_towards_a_second_life",
+      "promo": 6,
+      "lv": 80,
+      "rank": 1
+    },
+    "relic": {
+      "head": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Hp",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Cr",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Cd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "hand": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Atk",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Cr",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Cd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "body": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Cr",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Cd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "foot": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Spd",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Cr",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Cd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "orb": {
+        "name": "Forges",
+        "lv": 15,
+        "m_affix": "Atkp",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Cr",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Cd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "rope": {
+        "name": "Forges",
+        "lv": 15,
+        "m_affix": "Be",
+        "s_affix_one": {
+          "sub": "Spd",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Cr",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Cd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        }
+      }
+    }
+  },
+
+  "slot4": {
+    "index": 3,
+    "name": "Lingsha",
+    "lv": 80,
+    "rank": 0,
+    "promo": 6,
+    "max_trace": true,
+    "multipath": "None",
+    "energy": 50,
+    "use_tech": false,
+    "lightcone": {
+      "name": "What_is_real",
+      "promo": 6,
+      "lv": 80,
+      "rank": 5
+    },
+    "relic": {
+      "head": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Hp",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Eres",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "hand": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Atk",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Eres",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "body": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Ohb",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Eres",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "foot": {
+        "name": "Iron",
+        "lv": 15,
+        "m_affix": "Spd",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Atk",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Eres",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "orb": {
+        "name": "Forges",
+        "lv": 15,
+        "m_affix": "Atkp",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Atk",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Eres",
+          "cnt": 1,
+          "step": 2
+        }
+      },
+      "rope": {
+        "name": "Forges",
+        "lv": 15,
+        "m_affix": "Er",
+        "s_affix_one": {
+          "sub": "Be",
+          "cnt": 6,
+          "step": 12
+        },
+        "s_affix_two": {
+          "sub": "Atkp",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_three": {
+          "sub": "Spd",
+          "cnt": 1,
+          "step": 2
+        },
+        "s_affix_four": {
+          "sub": "Eres",
+          "cnt": 1,
+          "step": 2
+        }
+      }
+    }
+  },
+
+  "battle": {
+    "waves": [
+      [
+        8002010,1003010,8003020
+      ],
+      [
+        802401105
+      ]
+    ],
+    "stage_id": 30109111,
+    "rounds_limit": 30
+  }
+}
